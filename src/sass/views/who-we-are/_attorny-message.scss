@@ -1,0 +1,46 @@
+.attorny-message {
+    border-top: 1.5px solid #c8cacb;
+
+    .col-wrapper {
+        display: flex;
+        gap: 80px;
+    }
+
+    .right {
+        padding-top: 40px;
+
+        .title {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 36px;
+            line-height: 130%;
+            letter-spacing: -0.03em;
+            color: #404040;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 130%;
+            letter-spacing: -0.03em;
+            color: #e1ac53;
+            margin-bottom: 40px;
+        }
+
+        .content {
+            p {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 140%;
+                letter-spacing: -0.03em;
+                color: #404040;
+            }
+        }
+    }
+}

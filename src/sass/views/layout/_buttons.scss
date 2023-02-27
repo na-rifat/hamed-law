@@ -1,0 +1,32 @@
+.btn.primary {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #39614e;
+    text-decoration: none;
+
+    padding-bottom: 3px;
+    border-bottom: 1.5px solid #39614e;
+}
+
+.btn.secondary {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 10px;
+    background: #39614e;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #eeeeef;
+    text-decoration: none;
+}

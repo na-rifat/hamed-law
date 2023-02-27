@@ -1,0 +1,44 @@
+.center-content {
+    margin-top: -80px;position: relative;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+        gap: 30px;
+        background: #e2e2e2;
+    }
+
+    h2 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 44px;
+        line-height: 130%;
+        letter-spacing: -0.03em;
+        color: #404040;
+    }
+
+    .content {
+        p {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 140%;
+            letter-spacing: -0.03em;
+            color: #404040;
+        }
+
+        strong {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 140%;
+            letter-spacing: -0.03em;
+            color: #404040;
+        }
+    }
+}

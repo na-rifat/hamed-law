@@ -1,0 +1,53 @@
+.faq-slider {
+    padding: 120px 0;
+
+    h2 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 130%;
+        letter-spacing: -0.03em;
+        color: #404040;
+        margin-bottom: 30px;
+    }
+    .item {
+        background: #e2e2e2;
+        padding: 40px;
+        min-height: 230px;
+        cursor: grab;
+
+        &:active{
+            cursor: grabbing;
+        }
+
+        h3 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 130%;
+            letter-spacing: -0.03em;
+            color: #404040;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 140%;
+            letter-spacing: -0.03em;
+            color: #404040;
+        }
+    }
+
+    .slick-slide {
+        margin: 0px 20px;
+    }
+
+    .slick-track {
+        margin: 0px -20px;
+    }
+}

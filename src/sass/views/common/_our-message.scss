@@ -1,0 +1,39 @@
+.our-message {
+    .col-wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 164px;
+        border-top: 1.5px solid #c8cacb;
+    }
+
+    .left {
+        margin-top: 40px;
+        h2 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 44px;
+            line-height: 130%;
+            letter-spacing: -0.03em;
+            color: #404040;
+            margin-bottom: 20px;
+        }
+    }
+
+    .right {
+        img {
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            text-align: right;
+            letter-spacing: -0.03em;
+            color: #e1ac53;
+        }
+    }
+}

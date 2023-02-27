@@ -1,0 +1,70 @@
+// Configurations
+@import "./config/config";
+
+// libraries
+// @import "./libraries/aos";
+@import "./libraries/slick";
+
+// Layout
+@import "./views/layout/all";
+// components
+@import "./views/home/hero-banner";
+@import "./views/common/image-article.scss";
+@import "./views/common/usp-section.scss";
+@import "./views/common/article-image.scss";
+@import "./views/common/our-message.scss";
+@import "./views/common/reviews.scss";
+@import "./views/common/resources.scss";
+@import "./views/common/schedule-consultation.scss";
+@import "./views/common/page-banner.scss";
+@import "./views/common/faq.scss";
+@import "./views/common/article-image-down.scss";
+@import "./views/common/steps.scss";
+@import "./views/common/center-content.scss";
+@import "./views/common/vertical-center-article-image.scss";
+@import "./views/common/our-believes.scss";
+@import "./views/common/title-and-content.scss";
+@import "./views/who-we-are/attorny-message.scss";
+@import "./views/common/tabbed-content.scss";
+@import "./views/common/faq-slider.scss";
+@import "./views/our-impact/impact-image-article.scss";
+@import "./views/common/stories.scss";
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #39614e;
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    overflow: hidden auto;
+    background: #eeeeef;
+}
+
+.page-id-10 {
+    .title-and-content {
+        background: #e2e2e2;
+        padding: 80px 0;
+    }
+}
+
+.page-id-14 {
+    .title-and-content {
+        padding-top: 0;
+    }
+}

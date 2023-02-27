@@ -1,0 +1,21 @@
+.hero-banner {
+    padding: 160px 0;
+    background: #39614e;
+    position: relative;
+
+    h1 {
+        font-family: "Roc Grotesk";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 120%;
+        color: #eeeeef;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

@@ -1,0 +1,45 @@
+header {
+    padding: 40px 100px;
+    background: #39614e;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav {
+        ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            a {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                text-align: right;
+                letter-spacing: -0.03em;
+                color: #eeeeef;
+                text-decoration: none;
+            }
+
+            li {
+                &:last-child {
+                    a {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 8px 10px;
+                        gap: 10px;
+                        background: #e1ac53;
+                        color: #39614e;
+                    }
+                }
+            }
+        }
+    }
+}

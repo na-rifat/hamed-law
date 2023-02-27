@@ -1,0 +1,50 @@
+.impact-image-article {
+    position: relative;
+    .col-wrapper {
+        display: flex;
+        gap: 80px;
+        align-items: center;
+    }
+
+    .left {
+        img {
+            margin-top: -80px;
+        }
+    }
+
+    .right {
+        h2 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 44px;
+            line-height: 130%;
+            letter-spacing: -0.03em;
+            color: #404040;
+            margin-bottom: 30px;
+        }
+
+        .subtitle {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            letter-spacing: -0.03em;
+            color: #e1ac53;
+        }
+
+        .content {
+            p {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 140%;
+                letter-spacing: -0.03em;
+                color: #404040;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

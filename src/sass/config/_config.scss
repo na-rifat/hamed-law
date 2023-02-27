@@ -1,0 +1,12 @@
+@import "./normalize";
+@import "./responsive";
+@import "./container";
+@import "./common";
+
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+// Declear variables
+@font-face {
+    font-family: "Roc Grotesk";
+    src: url("../fonts/grostek-regular.ttf");
+}

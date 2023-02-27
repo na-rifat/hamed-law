@@ -1,0 +1,79 @@
+.tabbed-content {
+    padding: 120px;
+
+    h2 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 44px;
+        line-height: 130%;
+        letter-spacing: -0.03em;
+        color: #404040;
+        padding-bottom: 30px;
+        margin-bottom: 40px;
+        border-bottom: 1.5px solid #c8cacb;
+    }
+
+    .tab-wrapper {
+        display: flex;
+        gap: 80px;
+
+        .tab-index {
+            list-style-type: none;
+            display: flex;
+            gap: 15px;
+            flex-flow: column;
+
+            li {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 8px 10px;
+                gap: 10px;
+                border: 1px solid #39614e;
+
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 140%;
+                letter-spacing: -0.03em;
+                color: #39614e;
+                min-width: 295px;
+                cursor: pointer;
+                transition: 0.3s all linear;
+
+                &.active {
+                    background: #39614e;
+                    color: #fff;
+                }
+            }
+        }
+
+        .tab-body {
+            .body {
+                display: none;
+            }
+            h3 {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 300;
+                font-size: 36px;
+                line-height: 130%;
+                letter-spacing: -0.03em;
+                color: #404040;
+                margin-bottom: 20px;
+            }
+            .content {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 140%;
+                letter-spacing: -0.03em;
+                color: #404040;
+            }
+        }
+    }
+}
